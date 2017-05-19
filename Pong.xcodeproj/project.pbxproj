@@ -15,6 +15,7 @@
 		420C117E1EC92235000CDBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C117C1EC92235000CDBF7 /* Main.storyboard */; };
 		420C11801EC92235000CDBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420C117F1EC92235000CDBF7 /* Assets.xcassets */; };
 		420C11831EC92235000CDBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C11811EC92235000CDBF7 /* LaunchScreen.storyboard */; };
+		425B647A1ECBD09100F21E10 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B64791ECBD09100F21E10 /* MenuVC.swift */; };
 		42D3BEFA1ECA7DA10020FC6E /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42D3BEF91ECA7DA10020FC6E /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		420C117F1EC92235000CDBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420C11821EC92235000CDBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420C11841EC92235000CDBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425B64791ECBD09100F21E10 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		42D3BEF91ECA7DA10020FC6E /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				420C11781EC92235000CDBF7 /* GameScene.swift */,
 				420C117A1EC92235000CDBF7 /* GameViewController.swift */,
 				420C117C1EC92235000CDBF7 /* Main.storyboard */,
+				425B64791ECBD09100F21E10 /* MenuVC.swift */,
 				420C117F1EC92235000CDBF7 /* Assets.xcassets */,
 				420C11811EC92235000CDBF7 /* LaunchScreen.storyboard */,
 				420C11841EC92235000CDBF7 /* Info.plist */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425B647A1ECBD09100F21E10 /* MenuVC.swift in Sources */,
 				420C11791EC92235000CDBF7 /* GameScene.swift in Sources */,
 				420C117B1EC92235000CDBF7 /* GameViewController.swift in Sources */,
 				420C11731EC92235000CDBF7 /* AppDelegate.swift in Sources */,
